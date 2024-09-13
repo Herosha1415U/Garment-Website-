@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(253, 223, 228);
+}
+
+.logo{
+    cursor: pointer;
+    margin-left: 20px;
+    width: 15%;
+    height: 5%;
+}
+
+.container3{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.red{
+    color: red;
+}
+
+.search{
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.btn{
+    margin-left: -20px;
+    width: 40px;
+    background-color: red;
+    border: red solid 5px;
+    border-radius: 20px;
+}
+
+.c1{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    text-decoration-line: none;
+}
+
+#dropdown{
+    border: none;
+}
+
+.c4{
+    cursor: pointer;
+    color: black;
+}
+
+.container4{
+    margin-top: 25px;
+    margin-left: 350px;
+    display: flex;
+    gap: 20px;
+}
+
+.homepage{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.image{
+    height: 50%;
+}
+
+.name{
+    background-color: rgba(255, 226, 231, 0.801);
+    width: 45%;
+}
+
+.name1{
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 30%;
+}
+
+
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.c5{
+    display: flex;
+    position: relative;
+}
+
+.c6{
+    display: flex;
+    position: relative;
+}
+
+.c7{
+    display: flex;
+    position: relative;
+}
+
+.c8{
+    display: flex;
+    position: relative;
+}
+
+.text1{
+    opacity: 0;
+    transition: 0.5s ease;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.text1 p{
+    text-align: center;
+}
+
+.text1 h3{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+
+.text2{
+    opacity: 0;
+    transition: 0.5s ease;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.grid :hover{
+    opacity: 1;
+}
+
+.text2 h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.text2 p{
+    text-align: center;
+}
+
+.container5{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin-left: 50px;
+}
+
+.new{
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.flex{
+    display: flex;
+    gap: 30px;
+    margin-left: 1570px;
+    margin-bottom: 30px;
+}
+
+.newlist1{
+    color: orange;
+    border-bottom: 5px solid orange;
+}
+
+.size{
+    font-size: 20px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.align{
+    width: 100%;
+}
+
+.imagediv{
+    position: relative;
+     width: 15%;
+     text-align: center;
+}
+
+.para{
+    padding: 5px;
+}
+
+.fa-star{
+    border: 5px solid black;
+    background-color: black;
+    color: yellow;
+    width: 30px;
+}
+
+.test {
+    position: absolute;
+    right: 83%;
+    margin-top: 5px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:15px;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.flex2{
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: rgb(243, 230, 203);
+    margin-bottom: 5%;
+}
+
+.child-3{
+    text-align: center;
+    padding-top: 55px;
+    background-color: rgb(253, 223, 228);
+}
+
+.child img{
+    width: 100%;
+    height: 100%;
+}
+
+.child{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.child1 p{
+    color: rgb(133, 130, 130);
+}
+
+.child1{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+
+.child1 b{
+    color: black;
+}
+
+.child1 input{
+    width: 500px;
+    text-align: center;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+}
+
+.child1 button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    width: 513px;
+    cursor: pointer;
+}
+
+.child1 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.child1 button{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: rgb(255, 230, 224);
+    height: 15vh;
+    padding-top: 5%;
+}
+
+.footer p{
+    color: rgb(150, 147, 147);
+    margin-top: 10px;
+}
+
+.fa-brands{
+    color: rgb(150, 147, 147);
+}
+
+.common{
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.icon{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.footer2{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(247, 209, 201);
+}
+
+.mobileview{
+    display: none;
+}
+
+@media screen and (max-width:425px){
+    .mobileview{
+        display:block;
+    }
+    .pcview{
+        display: none;
+    }
+    .containermv1{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: rgba(192, 192, 192, 0.685);
+    }
+    .time{
+        padding-left: 10px;
+    }
+    .symbol{
+        padding-right: 10px;
+    }
+    
+    .headermv1{
+        display: flex;
+        width: 100%;
+        padding-top: 2%;
+    }
+    .controls{
+        display: flex;
+        gap: 18px;
+        padding-left: 10px;
+    }
+    .logomv1 img{
+        width: 20%;
+        height: auto;
+        margin-left: 120px;
+    }
+    .cart{
+        display: flex;
+        gap: 10px;
+        padding-right: 10px;
+    }
+    .c4{
+        margin-top: 10px;
+        height: 20px;
+        font-size: 15px;
+    }
+    .sidenav a{
+        text-decoration: none;
+        padding: 10px 7px 7px 30px;
+        font-size: 25px;
+        color: blue;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a :hover{
+        color: rgb(80, 216, 205);
+    }
+    .sidenav .closebtn{
+        position: absolute;
+        right: 15px;
+        top: 0;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .sidenav{
+        width: 0;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: blueviolet;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 50px;
+    }
+    .fa-magnifying-glass{
+        padding-top: 13px;
+        cursor: pointer; 
+    }
+    .fa-cart-shopping{
+        padding-top: 13px;
+        cursor: pointer; 
+    }
+
+    .banner{
+        margin-bottom: 80%;
+        position: relative;
+    }
+    .banner img{
+        width: 100%;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .mvname i{
+        color: white;
+        background-color: black;
+        border: 5px solid black;
+        margin-left: 40%;
+        margin-top: 55%;
+        position: absolute;
+        font-size: 30px;
+    }
+
+    .mvhead h2{
+        text-align: center;
+    }
+    .mvhead{
+        width: 100%;
+    }
+    .mvflex img{
+        /* padding: 20px; */
+        height: 50%;
+        width: 90%;
+        padding: 10px 10px 10px 20px;
+    }
+    .mvflex{
+        margin-bottom: 10%;
+    }
+    .mvchilda1{
+        position: relative;
+    }
+    .mvchilda2{
+        position: relative;
+    }
+    .mvchilda3{
+        position: relative;
+    }
+    .mvchilda4{
+        position: relative;
+    }
+    .mvchild1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        opacity: 0; 
+        transition: opacity 0.5s; 
+    }
+    .mvchilda1:hover .mvchild1 {
+        opacity: 1; 
+    }
+    .mvchild2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        opacity: 0; 
+        transition: opacity 0.5s; 
+    }
+    .mvchild3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        opacity: 0; 
+        transition: opacity 0.5s; 
+    }
+    .mvchild4{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        opacity: 0; 
+        transition: opacity 0.5s; 
+    }
+    /* .mvhead1{
+        text-align: center;
+    } */
+    
+    .mvchilda2:hover .mvchild2 {
+        opacity: 1; 
+    }
+    .mvchilda3:hover .mvchild3 {
+        opacity: 1; 
+    }
+    .mvchilda4:hover .mvchild4 {
+        opacity: 1; 
+    }
+
+    /* .mvnav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .mvnav a{
+        text-decoration: none;
+        color: black;
+    } */
+
+    .mvgrid{
+        width: 100%;
+    }
+    .mvtext{
+        border: 5px solid bisque;
+        width:50%;
+        text-align: center;
+        background-color: bisque;
+    }
+    .mvtext a{
+        display: block;
+        color: black;
+    }
+    .mvflex2{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* .mvimg7 img{
+        width: 65%;
+        height: 100%;
+    }
+    .mvimg8 img{
+        width: 92%;
+        height: auto;
+        padding-top: 10%;
+    } */
+    .mvimg8 {
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: -2px;
+}
+    .mvimg7{
+        width: 20%;
+    }
+    .mvimg9{
+        width: 20%;
+    }
+    .mvflex3{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 50px;
+        justify-content: space-between;
+    }
+
+    .subscription{
+        width: 100%;
+        background-color: bisque;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .input{
+        width: 100%;
+    }
+    .mvinput input{
+        width: 70%;
+        height: 30px;
+        text-align: center;
+        background-color: rgb(197, 197, 197);
+        border: 5px solid rgb(197, 197, 197);
+    }
+    /* .mvinput .mvbtn{
+        width: 72%;
+        height: 30px;
+        background-color: white;
+        transition: 1s ease-in-out;
+    }
+    .mvinput:hover .mvbtn{
+        transition: 1s ease-in-out;
+        background-color: black;
+        color: white;
+    } */
+    .mvinput .mvbtn{
+        background-color: white;
+        border: 2px solid black;
+        padding: 6px;
+        width: 72%;
+        cursor: pointer;
+    }
+    
+    .mvinput .mvbtn:hover{
+        background-color: black;
+        color: white;
+    }
+    /* .mvfoot{
+        padding-top: 30px;
+    } */
+    .mvinfo{
+        padding-left: 10%;
+        text-align: left;
+        width: 100%;
+        padding: 5px;
+        background-color: bisque;
+        border-left: bisque;
+        border-right: bisque;
+        border-top: 2px solid black;
+        border-bottom: 2px solid  black;
+    }
+    .child2-2{
+        text-align: center;
+        background-color: rgb(255, 244, 231);
+    }
+    .fa-plus{
+        display: flex;
+        justify-content:right;
+        margin-right: 5% ;
+        margin-top: -13px;
+    }
+    .mvicon2{
+        display: flex;
+        margin-left: 10px;
+    }
+    .mvfooter2{
+        padding-top: 10px;
+        height: 3vh;
+        text-align: center;
+        background-color: rgb(255, 244, 227);
+    }
+}
